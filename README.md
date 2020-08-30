@@ -21,6 +21,7 @@ The data was split standard : 75%,25%
 1. **RandomOverSampler**
 
 	a. Confusion Matrix
+
 				Predicted 0	Predicted 1
 		low_risk(0)		9971	7133
 		high_risk(1)		32	69
@@ -28,9 +29,11 @@ The data was split standard : 75%,25%
 	b. Balanced Accuracy Score : 0.63	
 
 	c. Report
+
                    		pre       rec       spe        f1      
           low_risk(0)       	1.00      0.58      0.68      0.74    
           high_risk(1)       	0.01      0.68      0.58      0.02
+
 
         d. For high risk, this model has low  precision (0.01), and  moderate 
 	sensitivity of 0.68.  This is also indicated by the F1 value (0.02). 
@@ -52,6 +55,7 @@ The data was split standard : 75%,25%
                    		pre       rec       spe        f1       
           low_risk(0)       	1.00      0.67      0.57      0.80      
           high_risk(1)       	0.01      0.57      0.67      0.02   
+
 
 	d. For high_risk, this model has low  precision (0.01), and moderate 
 	sensitivity of 0.57.  This is also indicated by the F1 value (0.02).
@@ -79,7 +83,7 @@ The data was split standard : 75%,25%
 	Not much better. For low risk, sensitivity goes down.
 	Accuracy is also down to 0.54 
 
-4. **UNDERSAMPLING : SMOTEENN **
+4. **UNDERSAMPLING : SMOTEENN**
 
 	a. Confusion Matrix
 
