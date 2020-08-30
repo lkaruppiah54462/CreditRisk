@@ -147,7 +147,7 @@ The data was split standard : 75%,25%
 	Accuracy is better at 0.74 with this model. Ensemble method provides
 	better accuracy with this data set.     
 
-## D.Recommendation
+## D.Recommendation/Justification
 
 	Seems the better method is **EasyEnsemblerClassifier**, with 100 estimators.
 	This provides a better accuracy  at ~0.75 level and sensitivity for both 
